@@ -29,11 +29,11 @@ We will approach the problem by performing the following steps:
        - LTV (Lifetime Value): The projected total revenue from a single customer.
        - Feature Usage Analysis: Tracking how customers interact with the product.
        - Churn Rate %: A custom DAX measure to calculate the percentage of customers who churned after using a specific feature.
-  3. Visualization & Analysis:
+  3. Visualization:
      - Power BI was connected directly to the PostgreSQL database, ensuring all visualizations are built on the most current data.
      - A robust data model was established within Power BI by defining key relationships between tables.
      - Key charts were created to address the project's goals
-  4. Create binary classification models and perform final testing:
+  4. Analysis:
      - Binary classification models: Decision Tree, Random Forest, Logistic Regression, Gradient Descent.
      - Perform a final test with all models, compare, and view the best model.
      - Extract metrics and graphs of F1 and AUC-ROC
